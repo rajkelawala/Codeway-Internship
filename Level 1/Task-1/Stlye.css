@@ -1,0 +1,371 @@
+/*screen size 100%*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url("image/Backgroudimage.png");
+    background-color: hwb(194 79% 3%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.navbar{
+    font-size: 1rem;
+    background-color: rgb(32, 75, 97);
+}
+
+.navbar ul{
+    overflow: auto;
+    margin: 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: black;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.navbar li{
+    list-style-type: none;
+    float: right;
+    padding: 30px 40px;
+}
+
+#hello{
+    font-size: x-large;
+}
+
+#bio{
+    float: right;
+    margin: 150px 30px 0 0;
+}
+
+p{
+    font-size: 1rem;
+}
+
+#img{
+    height: 450px;
+    width: 390px;
+    margin: 100px 0 130px 100px;
+    border-radius: 30px;
+}
+
+#button{
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+#button:hover{
+    background-color: rgb(121, 176, 219);
+}
+
+.skilllls{
+    display: flex;
+    text-align: center;
+}
+
+.skill_1{
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 50px 0 50px 20px;
+    font-size: static;
+}
+
+.skill_2{
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 50px 0 50px 30px;
+    font-size: static;
+}
+
+.skill_3{
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 50px 0 50px 30px;
+    font-size: static;
+}
+
+.skill_4{
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 50px 0 50px 30px;
+    font-size: static;
+}
+
+.skill_5{
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 50px 10px 50px 30px;
+    font-size: static;
+}
+
+.skill_1:hover{
+    width: 353px;
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(130, 223, 217, 0.97);
+}
+
+.skill_2:hover{
+    width: 353px;
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(130, 223, 217, 0.97);
+}
+
+.skill_3:hover{
+    width: 353px;
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(130, 223, 217, 0.97);
+}
+
+.skill_4:hover{
+    width: 353px;
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(130, 223, 217, 0.97);
+}
+
+.skill_5:hover{
+    width: 353px;
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(130, 223, 217, 0.97);
+}
+
+html{
+    scroll-behavior: smooth;
+    top: 50%;
+}
+
+.pro{
+    display: flex;
+}
+
+.maincontainer{
+    width: 250px;
+    height: 320px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 150px;
+    }
+
+.thecard{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    margin: 50px 25px 25px 10px;
+}
+
+.thecard:hover{
+    transform: rotatey(180deg);
+}
+
+.thefront{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    color: #000;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(148, 196, 238);
+    border-radius: 20px;
+}
+
+.theback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: #fafafa;
+    background-color: #DCF2F1;
+    color: #333;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.thefront h1, .theback h1{
+    padding: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 200px 0 0 0;
+    }
+
+.thefront p, .theback p{
+    padding: 10px 0 0 0;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+}
+
+#resume {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url(Image/Backgroudimage.png);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(81, 173, 194, 0.945);
+    text-align: center;
+}
+
+#button2{
+    cursor: pointer;
+    margin-top: 20px;
+    height: 40px;
+    width: 110px;
+    border-radius: 20px; 
+}
+
+#button2 a{
+    text-decoration: none;
+    color: black;
+
+}
+#button2:hover{
+    background-color: rgb(121, 176, 219);
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+#con{
+    margin: 40px 0 20px 240px;
+}
+
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info{
+    color:#000000;
+    max-width: 500px;
+    line-height: 65px;
+    font-size: 15px;
+}
+
+.contact-info i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.contact-form{
+    max-width: 700px;
+    margin-left: 100px;
+}
+
+.contact-form h3{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-box{
+    background: #92ccf4;
+    color: #000000;
+    border: none;
+    width: calc(30% - 10);
+    height: 30px;
+    width: 250px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+
+.contact-form textarea{
+    background: #92ccf4;
+    color: #000000;
+    border: none;
+    width: 77.5%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 300px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+} 
+
+.contact-form .send-btn{    
+    background: #7FC7D9;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-right: 500px;
+}
+
+.contact-form .send-btn:hover{
+    background: #66b3f2;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(32, 75, 97);
+    justify-content: space-between;
+}
+
+.social {
+    font-size: 25px;
+    float: right;
+    margin: 25px 20px 25px 700px;
+    
+}
+
+#last{
+    margin: 32px 0 15px 30px;
+    color: #ffffff;
+}
+
+.social i{
+    margin: 25px 40px 15px 0px;
+    text-decoration: none;
+    color: #ffffff;
+}
